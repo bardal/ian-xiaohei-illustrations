@@ -252,7 +252,7 @@ ian-xiaohei-illustrations/
 
 - GitHub: [helloianneo](https://github.com/helloianneo)
 - X/Twitter: [@ianneo_ai](https://x.com/ianneo_ai)
-- 网站: [www.ianneo.xyz](https://www.ianneo.xyz/)
+- 网站: [www.ianneo.xyz](https://www.ianneo.xyz)
 - 微信: `ianneoxyz`
 - 邮箱: hello.neoc@gmail.com
 
@@ -262,7 +262,7 @@ ian-xiaohei-illustrations/
 
 这套小黑配图 Skill，只是我用 AI 搭建个人生产系统里的一个小工具。
 
-如果你也在用 AI 做内容、知识库、工作流或产品化，可以继续看我的网站：[www.ianneo.xyz](https://www.ianneo.xyz/)。
+如果你也在用 AI 做内容、知识库、工作流或产品化，可以继续看我的网站：[www.ianneo.xyz](https://www.ianneo.xyz)。
 
 只想先观察，可以关注我的 [X/Twitter](https://x.com/ianneo_ai)。
 
