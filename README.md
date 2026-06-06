@@ -117,6 +117,8 @@ git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git
 cd ian-xiaohei-illustrations
 ```
 
+### Codex
+
 Copy the skill to your Codex skills directory:
 
 ```bash
@@ -128,6 +130,14 @@ After installation, use it in Codex:
 
 ```text
 Use $ian-xiaohei-illustrations to design and generate 5 Xiaohei absurd article illustrations for this article.
+```
+
+### Claude Code / skills.sh
+
+Install as a Claude skill:
+
+```bash
+npx skills add helloianneo/ian-xiaohei-illustrations@ian-xiaohei-illustrations
 ```
 
 ---
@@ -201,24 +211,43 @@ The skill's workflow is:
 │   │   ├── 02-sort-by-purpose.png
 │   │   └── ...
 │   └── prompts.md
-└── ian-xiaohei-illustrations/
-    ├── SKILL.md
-    ├── agents/
-    │   └── openai.yaml
-    ├── assets/
-    │   └── examples/
-    └── references/
-        ├── style-dna.md
-        ├── xiaohei-ip.md
-        ├── composition-patterns.md
-        ├── prompt-template.md
-        └── qa-checklist.md
+├── ian-xiaohei-illustrations/
+│   ├── SKILL.md
+│   ├── agents/
+│   │   └── openai.yaml
+│   ├── assets/
+│   │   └── examples/
+│   └── references/
+│       ├── style-dna.md
+│       ├── xiaohei-ip.md
+│       ├── composition-patterns.md
+│       ├── prompt-template.md
+│       └── qa-checklist.md
+└── skills/
+    └── ian-xiaohei-illustrations/
+        ├── SKILL.md
+        ├── agents/
+        │   └── openai.yaml
+        ├── assets/
+        │   └── examples/
+        └── references/
+            ├── style-dna.md
+            ├── xiaohei-ip.md
+            ├── composition-patterns.md
+            ├── prompt-template.md
+            └── qa-checklist.md
 ```
 
-The subdirectory that actually needs to be installed into Codex is:
+The Codex skill directory is:
 
 ```text
 ian-xiaohei-illustrations/
+```
+
+The Claude skill directory (for skills.sh packaging) is:
+
+```text
+skills/ian-xiaohei-illustrations/
 ```
 
 The root-level README, LICENSE, NOTICE, and examples folder are GitHub documentation only.
